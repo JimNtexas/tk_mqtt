@@ -11,11 +11,11 @@ DOOR_UNKNOWN =2
 window = Tk()
 window.geometry('680x480')
 
-#Load both the images
+#Load the images
 path = str((Path(r'/home/pi/garagePimon/tests'))) + '/'
 print(path)
 img_open = ImageTk.PhotoImage(Image.open(path + "green.jpg"))
-img_closed = ImageTk.PhotoImage(Image.open(path + 'yellow.jpg'))
+img_closed = ImageTk.PhotoImage(Image.open(path + 'blue.jpg'))
 img_unknown =ImageTk.PhotoImage(Image.open(path + 'red.jpg'))
 
 var = StringVar()
