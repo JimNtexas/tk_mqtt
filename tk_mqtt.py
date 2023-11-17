@@ -1,3 +1,5 @@
+#TODO:  use name=main idiom
+
 import paho.mqtt.client as mqtt #import the client1
 from tkinter import *
 from PIL import ImageTk, Image
